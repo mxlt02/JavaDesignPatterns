@@ -1,7 +1,5 @@
 package top.mxlt.study.designpatterns;
 
-import top.mxlt.study.designpatterns.singleton.Singleton;
-
 /**
  * @author AlanZhao
  * @email a@mxlt.top
@@ -9,6 +7,6 @@ import top.mxlt.study.designpatterns.singleton.Singleton;
  */
 public class Main {
     public static void main(String[] args) {
-        Singleton singleton = new Singleton();
+//        Singleton singleton = new Singleton();
     }
 }

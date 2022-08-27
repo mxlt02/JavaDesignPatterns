@@ -5,6 +5,7 @@ package top.mxlt.study.designpatterns.singleton.impl;
  * @email a@mxlt.top
  * @date 2022/8/26
  *
+ * 单例模式是一种创建型设计模式， 让你能够保证一个类只有一个实例， 并提供一个访问该实例的全局函数。
  * 注意: 实际使用请采用一种方式即可, 请不要学习本类的过度集成, 本类仅适合于需要配置加载模式的情况
  */
 public class Singleton {

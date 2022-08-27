@@ -1,22 +1,15 @@
 package top.mxlt.study.designpatterns.singleton;
 
 import top.mxlt.study.designpatterns.singleton.impl.Singleton;
-import top.mxlt.study.designpatterns.singleton.impl.SingletonEnum;
-
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author AlanZhao
  * @email a@mxlt.top
  * @date 2022/8/26
  */
-public class SingletonTest {
+public class SingletonTest{
     public static void main(String[] args) throws InterruptedException {
-        Singleton.singletonEnum = SingletonEnum.LAZY;
         System.out.println("Config singletonEnum-> "+ Singleton.singletonEnum);
-
-        System.out.println("开始运行, 睡眠3秒测试");
-        // TimeUnit.SECONDS.sleep(3);
 
         // Singleton singleton = new Singleton();
         // 'Singleton()' has private access in 'top.mxlt.study.designpatterns.singleton.impl.Singleton'

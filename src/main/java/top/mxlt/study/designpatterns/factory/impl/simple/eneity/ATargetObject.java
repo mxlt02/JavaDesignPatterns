@@ -1,4 +1,4 @@
-package top.mxlt.study.designpatterns.factory.impl;
+package top.mxlt.study.designpatterns.factory.impl.simple.eneity;
 
 import lombok.Data;
 

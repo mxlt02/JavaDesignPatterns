@@ -1,6 +1,6 @@
 package top.mxlt.study.designpatterns.factory.impl.simple;
 
-import top.mxlt.study.designpatterns.factory.impl.TargetObject;
+import top.mxlt.study.designpatterns.factory.impl.simple.eneity.TargetObject;
 
 /**
  * @author AlanZhao
